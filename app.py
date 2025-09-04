@@ -27,7 +27,7 @@ if selected_cat:
         # st.markdown(f"**{ind_folder} - {meta['category']}**")
         st.markdown(f'**{ind_folder}**')
         st.markdown(f"**Prompt: {meta['image_generation_prompt']}**")
-        cols = st.columns(5)
+        cols = st.columns(6)
         cols[0].write('garment image')
         cols[0].image(garment_img)
         cols[1].write('cropped garment image')
